@@ -1,0 +1,35 @@
+{
+    "name": "questblue/velocity",
+    "description": "Some description",
+    "type": "project",
+    "authors": [],
+    "autoload": {
+        "psr-4": {
+            "Questblue\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://gitlab.questblue.com/web-development/composerpackages/router.git",
+            "token": {
+                "gitlab-token": "4msuzcPuWyxZ3B3HSr6z"
+            }
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.questblue.com/web-development/composerpackages/pdodatabase.git",
+            "token": {
+                "gitlab-token": "4msuzcPuWyxZ3B3HSr6z"
+            }
+        }
+    ],
+    "require": {
+        "questblue/pdodatabase": "^1.0.0",
+        "questblue/router": "^1.0.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
